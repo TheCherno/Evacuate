@@ -1,0 +1,147 @@
+body {
+    background-color: #456;
+    font-family: 'Lato', 'Helvetica', sans-serif;
+    color: white;
+    font-size: xx-large;
+}
+
+#container {
+    position: relative;
+   /* border: 1px solid orange;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    height: 540px;
+    display: block;
+}
+
+#container canvas {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.filler {
+    padding: 50px;
+    text-align: center;
+    height: 150px;
+    font-size: 60px;
+}
+
+#resources {
+    position: absolute;
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+    right: 0px;
+    top: 0px;
+    width: 100px;
+    height: 70px;
+    z-index: 1;
+    padding: 10px;
+    background-color: #333;
+    opacity: 0.5;
+}
+
+#end {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    padding: 50px;
+}
+
+
+#panel {
+    position: relative;
+    font-family: "Courier New", monospace;
+    font-size: 24px;
+    /*font-weight: bold;*/
+    padding: 10px;
+    bottom: 0px;
+    height: 112px;
+    width: 940px;
+    background-color: #333;
+    opacity: 0.8;
+}
+
+#buy {
+    text-align:center;
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+#status {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#connected {
+    color: #2a3;
+}
+
+#disconnected {
+    color: #a23;
+}
+
+#manage {
+    position: absolute;
+    text-align: center;
+    border: 1px solid white;
+    right: 100px;
+    bottom: -8px;
+    width: 20%;
+}
+
+#return {
+    position: absolute;
+    text-align:center;
+    right: 60px;
+    bottom: 14px;
+    border: 1px solid white;
+    width: 20%;
+}
+
+.button:hover {
+     background-color: #777;
+}
+
+#buy-table {
+    text-align:left;
+    padding: 5px;
+    padding-right: 20px;
+}
+
+.buy-cell {
+    font-size: 18px;
+    text-align:left;
+    padding: 5px;
+    padding-right: 10px;
+    border: 1px solid white;
+}
+
+.buy-price {
+    font-size: 18px;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.buy-error {
+    color: #FF2233;
+    border: none;
+}
+
+.buy-error:hover {
+    background-color: #333;
+}
+
+#debug {
+    position: absolute;
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+    left: 8px;
+    top: 8px;
+    z-index: 1;
+}
